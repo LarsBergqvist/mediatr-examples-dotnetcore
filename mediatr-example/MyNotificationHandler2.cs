@@ -15,7 +15,7 @@ namespace mediatr_example
         }
         public async Task Handle(MyNotification notification, CancellationToken cancellationToken)
         {
-            await _writer.WriteLineAsync($"--- Got notification in handler 1");
+            await _writer.WriteLineAsync($"Got notification in handler 1");
         }
     }
 }
